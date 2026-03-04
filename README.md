@@ -1,6 +1,10 @@
 # AI-Assisted Threat Intelligence Investigation  
 ## Infostealer Credential Exposure & Third-Party Supply Chain Risk
 
+<p align="center">
+  <img width="900" height="400" alt="ChatGPT Image Mar 4, 2026, 04_11_57 PM" src="https://github.com/user-attachments/assets/c1fc83a8-a3c1-4326-87c0-c1edfd26cf9b" />
+</p>
+
 Capstone Project – Applied AI for Cybersecurity Incident Response  
 
 Author: James Moore  
@@ -16,6 +20,37 @@ Role: Security Analyst / Threat Intelligence Researcher
 ](https://youtu.be/0cANdViZH8E)
 
 ---
+
+# Table of Contents
+
+- Executive Summary
+- Investigation Methodology
+- Key Findings
+- Threat Actor Profile
+- Infostealer Malware Ecosystem
+- Threat Scenario Overview
+- Attack Chain (MITRE ATT&CK Kill Chain)
+- Incident Timeline
+- Compromised Host Profile
+- Evidence: Infostealer Log
+- Corporate Credential Exposure
+- Enterprise Infrastructure Identified
+- Installed Software Analysis
+- Initial Access Vector
+- MITRE ATT&CK Mapping
+- Threat Actor Opportunity
+- OSINT Investigation
+- AI-Assisted Investigation
+- Prompt Engineering Methodology
+- AI Prompt Bank
+- Detection Opportunities
+- Defensive Recommendations
+- Risk Assessment
+- Lessons Learned
+- Technologies Used
+
+---
+
 
 # Executive Summary
 
@@ -73,6 +108,26 @@ The investigation identified evidence that:
 • Harvested credentials included **enterprise systems used by LG Electronics engineering teams**
 
 • Exposure of these credentials presents **potential supply chain risk to partner organizations**
+
+---
+
+# Threat Landscape
+
+Infostealer malware has become one of the fastest-growing sources of enterprise credential exposure.
+
+Security researchers estimate that **millions of corporate credentials are exposed each year through infostealer log marketplaces**, enabling threat actors to gain unauthorized access to enterprise systems without exploiting software vulnerabilities.
+
+These marketplaces operate as part of a broader cybercrime ecosystem where attackers purchase stolen credentials to perform:
+
+• corporate network intrusion  
+• account takeover attacks  
+• intellectual property theft  
+• ransomware deployment  
+• supply chain compromise  
+
+In many cases, attackers rely on **valid credentials rather than exploits**, allowing malicious activity to blend in with legitimate authentication behavior.
+
+This investigation demonstrates how credential exposure from a single compromised endpoint can introduce **risk across multiple organizations connected through trusted development relationships.**
 
 ---
 
@@ -158,6 +213,34 @@ This case models a common modern breach scenario involving **infostealer malware
 7. Attackers authenticate directly into enterprise systems using valid credentials  
 
 Because the attacker logs in using legitimate credentials, this technique bypasses many traditional detection controls.
+
+---
+
+---
+
+# Supply Chain Attack Path
+
+The credential exposure scenario introduces potential **supply chain risk through trusted engineering relationships**.
+
+In this case, credentials harvested from a compromised LG Electronics engineering workstation could provide access to enterprise systems used in collaboration with Jaguar Land Rover.
+
+<p align="center">
+<img width="1000" height="500" alt="ChatGPT Image Mar 4, 2026, 04_20_55 PM" src="https://github.com/user-attachments/assets/aca5938e-1822-466b-9579-6f535328ba2d" />
+</p>
+
+### Attack Path
+
+1. LG Electronics engineer workstation becomes infected with infostealer malware  
+2. Credentials and authentication tokens are harvested  
+3. Infostealer logs are uploaded to attacker infrastructure  
+4. Logs are sold in underground credential marketplaces  
+5. Threat actor purchases the credential dataset  
+6. Attacker authenticates into enterprise systems using valid credentials  
+7. Access may extend into partner development environments
+
+Because authentication uses **valid credentials**, the activity may appear legitimate within enterprise authentication logs.
+
+This technique has been observed in multiple real-world breaches involving **trusted third-party relationships and software development environments.**
 
 ---
 
