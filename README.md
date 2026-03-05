@@ -16,7 +16,7 @@ Role: Security Analyst / Threat Intelligence Researcher
 
 🎥 **Watch the Full Capstone Presentation**
 
-[<img width="1280" height="720" alt="Untitled design" src="https://github.com/user-attachments/assets/3da0fbb2-bcf0-4785-bdb2-af332a9422d4" />
+[<img width="1000" height="500" alt="Untitled design" src="https://github.com/user-attachments/assets/3da0fbb2-bcf0-4785-bdb2-af332a9422d4" />
 ](https://youtu.be/0cANdViZH8E)
 
 ---
@@ -77,7 +77,7 @@ This investigation followed a structured **AI-assisted SOC investigation workflo
 
 The workflow illustrates the analytical process used to identify the potential supply chain exposure risk.
 
-<img width="400" height="650" alt="ChatGPT Image Mar 4, 2026, 02_09_32 PM" src="https://github.com/user-attachments/assets/55e6529e-bcc2-4f1b-addb-f4d7cab5752a" />
+<img width="300" height="550" alt="ChatGPT Image Mar 4, 2026, 02_09_32 PM" src="https://github.com/user-attachments/assets/55e6529e-bcc2-4f1b-addb-f4d7cab5752a" />
 
 ### Investigation Workflow Stages
 
