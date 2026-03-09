@@ -287,7 +287,24 @@ The observed activity aligns with adversary behavior patterns defined in the **M
 
 # Evidence: Infostealer Log
 
-<img width="1881" height="657" alt="jlrmotor com_930_KR_125 187 xx xx_07-08-21_3rd-party-creds (image-REDACTED)" src="https://github.com/user-attachments/assets/5cbd931e-7274-4e2f-a2bd-7b03106fd214" />
+<img width="1600" height="500" alt="Untitled design" src="https://github.com/user-attachments/assets/5b7cfdff-5050-4966-a6e8-429dc750d6c2" />
+
+Sanitized report and removed internal infrastructure details and screenshots
+
+## Evidence Source
+
+During this investigation, a security observation was identified through an internal ticketing workflow that contained sensitive information related to enterprise development infrastructure.
+
+Due to responsible disclosure practices, specific infrastructure details and screenshots have been removed from this public report.
+
+The incident demonstrates how operational tooling such as issue tracking systems can inadvertently become a source of credential exposure.
+
+This case reinforces the importance of:
+
+• Secrets management policies  
+• Data classification controls  
+• Internal monitoring of collaboration tools  
+• Automated scanning for sensitive information in tickets and repositories
 
 
 This log indicates the compromised device contained **corporate authentication credentials and enterprise system access tokens**.
@@ -300,7 +317,7 @@ Example credential discovered in the infostealer dataset:
 
 ```
 URL:
-https://jira.sdo.jlrmotor.com/login.jsp
+https://jira.sd...........x
 
 Credential Type:
 Corporate Jira Account
@@ -315,19 +332,22 @@ This suggests the compromised endpoint had access to **enterprise development in
 
 # Enterprise Infrastructure Identified
 
-Credential analysis revealed access to multiple enterprise systems used by LG Electronics engineering teams.
+### Infrastructure Observed in Infostealer Logs (Sanitized)
 
-Examples include:
+The infostealer data referenced several enterprise systems associated with the affected organization. 
+To adhere to responsible disclosure practices, all internal infrastructure hostnames have been generalized.
 
-• codebeamer.lge.com  
-• collab.lge.com  
-• scm.lge.com  
-• swmd.lge.com  
-• vpn.lge.com  
-• harmony.lge.com  
-• learning.lge.com  
+Observed system categories included:
 
-These platforms represent engineering collaboration systems and internal development infrastructure.
+• code-repository.[enterprise-domain]  
+• collaboration.[enterprise-domain]  
+• source-control.[enterprise-domain]  
+• software-management.[enterprise-domain]  
+• vpn-gateway.[enterprise-domain]  
+• internal-portal.[enterprise-domain]  
+• training-platform.[enterprise-domain]  
+
+Note: Original hostnames have been removed to prevent disclosure of sensitive enterprise infrastructure.
 
 ---
 
