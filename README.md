@@ -287,7 +287,7 @@ The observed activity aligns with adversary behavior patterns defined in the **M
 
 # Evidence: Infostealer Log
 
-<img width="1600" height="500" alt="Redacted" src="https://github.com/user-attachments/assets/674da328-7438-4e1c-86ad-83442f127e26" />
+<img width="1600" height="500" alt="Redacted (1)" src="https://github.com/user-attachments/assets/60a5a702-987b-4ec7-b5ed-16e31a75d778" />
 
 Sanitized report and removed internal infrastructure details and screenshots
 
