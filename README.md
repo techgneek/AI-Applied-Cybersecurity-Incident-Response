@@ -293,7 +293,7 @@ Sanitized report and removed internal infrastructure details and screenshots
 
 ## Evidence Source
 
-During this investigation, a security observation was identified through an internal ticketing workflow that contained sensitive information related to enterprise development infrastructure.
+During this investigation, a security observation was identified that contained sensitive information related to enterprise development infrastructure.
 
 Due to responsible disclosure practices, specific infrastructure details and screenshots have been removed from this public report.
 
