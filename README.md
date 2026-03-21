@@ -23,32 +23,35 @@ Role: Security Analyst / Threat Intelligence Researcher
 
 # Table of Contents
 
-- Executive Summary
-- Investigation Methodology
-- Key Findings
-- Threat Actor Profile
-- Infostealer Malware Ecosystem
-- Threat Scenario Overview
-- Attack Chain (MITRE ATT&CK Kill Chain)
-- Incident Timeline
-- Compromised Host Profile
-- Evidence: Infostealer Log
-- Corporate Credential Exposure
-- Enterprise Infrastructure Identified
-- Installed Software Analysis
-- Initial Access Vector
-- MITRE ATT&CK Mapping
-- Threat Actor Opportunity
-- Business Impact
-- OSINT Investigation
-- AI-Assisted Investigation
-- Prompt Engineering Methodology
-- AI Prompt Bank
-- Detection Opportunities
-- Defensive Recommendations
-- Risk Assessment
-- Lessons Learned
-- Technologies Used
+- [Executive Summary](#executive-summary)
+- [Investigation Methodology](#investigation-methodology)
+- [Key Findings](#key-findings)
+- [Threat Landscape](#threat-landscape)
+- [Threat Actor Profile](#threat-actor-profile)
+- [Infostealer Malware Ecosystem](#infostealer-malware-ecosystem)
+- [Threat Scenario Overview](#threat-scenario-overview)
+- [Supply Chain Attack Path](#supply-chain-attack-path)
+- [Attack Chain (MITRE ATT&CK Kill Chain)](#attack-chain-mitre-attck-kill-chain)
+- [Incident Timeline](#incident-timeline)
+- [Compromised Host Profile](#compromised-host-profile)
+- [Evidence: Infostealer Log](#evidence-infostealer-log)
+- [Corporate Credential Exposure](#corporate-credential-exposure)
+- [Enterprise Infrastructure Identified](#enterprise-infrastructure-identified)
+- [Installed Software Analysis](#installed-software-analysis)
+- [Initial Access Vector](#initial-access-vector)
+- [MITRE ATT&CK Mapping](#mitre-attck-mapping)
+- [Threat Actor Opportunity](#threat-actor-opportunity)
+- [Business Impact](#business-impact)
+- [OSINT Investigation](#osint-investigation)
+- [AI-Assisted Investigation](#ai-assisted-investigation)
+- [Prompt Engineering Methodology](#prompt-engineering-methodology)
+- [AI Prompt Bank](#ai-prompt-bank)
+- [Detection Opportunities](#detection-opportunities)
+- [Defensive Recommendations](#defensive-recommendations)
+- [Risk Assessment](#risk-assessment)
+- [Lessons Learned](#lessons-learned)
+- [Technologies Used](#technologies-used)
+- [Author](#author)
 
 ---
 
